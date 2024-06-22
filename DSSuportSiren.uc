@@ -1,4 +1,4 @@
-class DSSuportSiren extends ZombieSuperSiren;
+class DSSuportSiren extends ZombieSiren_STANDARD;
 
 var KFGameType KF;
 
@@ -72,8 +72,8 @@ simulated function HurtRadius( float DamageAmount, float DamageRadius, class<Dam
 
 defaultproperties
 {
-	Skins(0)=FinalBlend'KF_Specimens_Trip_T.siren_hair_fb'
-	Skins(1)=Texture'Magic_big_black_dick.sz.EvilSiren_diff'
+////	Skins(0)=FinalBlend'KF_Specimens_Trip_T.siren_hair_fb'
+////	Skins(1)=Texture'Magic_big_black_dick.sz.EvilSiren_diff'
 	HeadScale=1.250000 
 	MenuName="Support Siren"
 	ScreamRadius=2500 // 700
